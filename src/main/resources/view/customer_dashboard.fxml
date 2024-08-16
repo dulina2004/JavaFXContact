@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Dashboardcustomerform">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e2b6" height="307.0" layoutY="92.0" stroke="TRANSPARENT" strokeType="INSIDE" width="603.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6eacda" height="92.0" stroke="TRANSPARENT" strokeType="INSIDE" width="603.0" />
+      <JFXButton layoutX="416.0" layoutY="148.0" onAction="#btnActionadd" prefHeight="25.0" prefWidth="122.0" style="-fx-background-color: #03346E;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="416.0" layoutY="245.0" onAction="#btnActionview" prefHeight="25.0" prefWidth="122.0" style="-fx-background-color: #03346E;" text="View" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="178.0" layoutY="18.0" prefHeight="56.0" prefWidth="246.0" text="Customer Manager" textFill="#021526">
+         <font>
+            <Font name="Consolas Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
